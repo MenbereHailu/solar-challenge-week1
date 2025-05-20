@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-from .utils import load_data, summary_table
+from utils import load_data, summary_table
 
 
 # Load data
