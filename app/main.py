@@ -3,7 +3,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from app.utils import load_data, summary_table
+
+from .utils import load_data, summary_table
+
 
 # Load data
 df = load_data()
