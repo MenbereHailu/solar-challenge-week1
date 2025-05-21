@@ -1,8 +1,7 @@
 import pandas as pd
-
 def load_data():
     benin = pd.read_csv('data/Benin_clean.csv')
-    togo = pd.read_csv('Togo_clean.csv')
+    togo = pd.read_csv('data/Togo_clean.csv')
     sierra_leone = pd.read_csv('data/sierraleone_clean.csv')
 
     benin['Country'] = 'Benin'
